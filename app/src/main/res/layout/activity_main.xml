@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Mainactivity">
 
     <!--hedder-->
     <LinearLayout
@@ -43,7 +43,6 @@
         android:layout_height="wrap_content">
 
     </LinearLayout>
-
     <!--    footer-->
 
     <LinearLayout
@@ -68,7 +67,7 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/imgadd"
+                    android:id="@+id/imgADD"
                     android:layout_width="wrap_content"
                     android:layout_height="@dimen/_30sdp"
                     android:layout_marginBottom="@dimen/_20sdp"

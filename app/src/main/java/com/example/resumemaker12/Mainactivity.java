@@ -11,21 +11,24 @@ import android.widget.ImageView;
 public class Mainactivity extends AppCompatActivity {
     ImageView imgADD;
 
-    @SuppressLint("MissingInflatedId")
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState ) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_resumemaker);
-        imgADD =findViewById(R.id.imgADD);
+        setContentView(R.layout.activity_main);
+        intiview();
+
+    }
+
+
+    private void intiview() {
+        imgADD=findViewById(R.id.imgADD);
 
         imgADD.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i= new Intent(Mainactivity.this,resumemaker.class);
-                startActivity(i);
+                Intent a=new Intent(Mainactivity.this,resumemaker.class);
+                startActivity(a);
             }
         });
-
-
     }
 }

@@ -105,6 +105,23 @@
             android:layout_marginLeft="@dimen/_10sdp"
             android:layout_marginTop="@dimen/_10sdp"
             android:textSize="@dimen/_20sdp"/>
+        <EditText
+            android:id="@+id/hobby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hobby"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="@dimen/_20sdp"/>
+        <EditText
+            android:id="@+id/Study"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="study"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="@dimen/_20sdp"/>
+
 
 
         <Button

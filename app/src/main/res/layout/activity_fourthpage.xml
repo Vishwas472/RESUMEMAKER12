@@ -108,7 +108,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SAVE"
-        android:background="@color/PURPLE"
+        android:background="@color/Purple"
         android:layout_gravity="center_horizontal"
         android:textSize="@dimen/_15sdp"
         android:textStyle="bold"/>

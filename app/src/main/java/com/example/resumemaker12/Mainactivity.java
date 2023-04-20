@@ -26,7 +26,7 @@ public class Mainactivity extends AppCompatActivity {
         imgADD.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a=new Intent(Mainactivity.this,resumemaker.class);
+                Intent a=new Intent(Mainactivity.this,Loginactivity.class);
                 startActivity(a);
             }
         });

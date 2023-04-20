@@ -208,7 +208,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_20sdp"
         android:text="SAVE"
-        android:background="@color/PURPLE"
+        android:background="@color/Purple"
         android:layout_gravity="center_horizontal"/>
 
 
